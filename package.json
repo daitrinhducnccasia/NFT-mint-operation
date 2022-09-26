@@ -1,0 +1,17 @@
+{
+  "name": "mint-operation",
+  "version": "1.0.0",
+  "description": "script for minting operation: withdraw ETH from Binance, wallet creation, minting script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@binance/connector": "^1.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
