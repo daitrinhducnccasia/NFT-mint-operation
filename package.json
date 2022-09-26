@@ -4,7 +4,8 @@
   "description": "script for minting operation: withdraw ETH from Binance, wallet creation, minting script",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,12 @@
     "@binance/connector": "^1.13.0"
   },
   "devDependencies": {
+    "config": "^3.3.8",
     "dotenv": "^16.0.2",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "keccak": "^3.0.2",
+    "prettier": "2.7.1",
+    "randombytes": "^2.1.0",
+    "secp256k1": "^4.0.3"
   }
 }

@@ -1,0 +1,10 @@
+{
+    "wallet_A": {
+        "number": 10,
+        "maxToken": 3
+    },
+    "wallet_B": {
+        "number": 1000,
+        "maxToken": 2
+    }
+}
