@@ -12,6 +12,7 @@
     "@binance/connector": "^1.13.0"
   },
   "devDependencies": {
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "fs": "^0.0.1-security"
   }
 }
